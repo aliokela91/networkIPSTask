@@ -1,0 +1,1 @@
+package com.networkIPS.task.helpers;public interface GenericItemClickCallback<T> {    void onItemClicked(T item);}

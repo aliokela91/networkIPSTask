@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NetworkIPSTest</string>
+    <string name="most_popular">Most popular</string>
+    <string name="no_data">No data</string>
+    <string name="loading">Loading</string>
+    <string name="slow_or_no_internet_connection">Slow or no internet connection</string>
+    <string name="click_to_refresh">Click to refresh</string>
+    <string name="please_check_your_internet_setting">Please check internet setting</string>
+    <string name="ooops">oooooops</string>
+    <string name="dialog_msg_loading">Loading</string>
+    <string name="msg_please_wait">Please Wait</string>
+    <string name="msg_no_internet">No internet connection</string>
+    <string name="retry">Retry</string>
+    <string name="some_thing_error">Some thing erorr</string>
+    <string name="connection_error">Connection error</string>
+    <string name="test" >NetworkIPSTest</string>
+    <string name="home">Home</string>
+    <string name="article_details">Article details</string>
+</resources>

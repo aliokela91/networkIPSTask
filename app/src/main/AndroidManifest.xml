@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.networkIPS.task">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.networkIPS.task.helpers.App"
+        android:allowBackup="true"
+        android:label="@string/test"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:roundIcon="@drawable/logo_ft"
+        android:icon="@drawable/logo_ft"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,UnusedAttribute">
+        <activity
+            android:name="com.networkIPS.task.ui.activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
